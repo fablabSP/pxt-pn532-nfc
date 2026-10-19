@@ -1,0 +1,20 @@
+{
+    "name": "pn532-nfc",
+    "version": "0.1.0",
+    "description": "PN532 NFC/RFID reader over I2C for micro:bit V2. No radio or Bluetooth dependencies, so it works alongside BLE HID.",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "nfc.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
